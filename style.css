@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+}
+
+/* ----------------- menu -------------------- */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #9767A9;
+}
+
+nav img {
+    width: 80px;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+ul li {
+    transition: 0.2s;
+}
+
+ul li:hover {
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.buscar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buscar input {
+    border-radius: 20px;
+    border: 3px solid #9767A9;
+    outline: none;
+    width: 50%;
+    height: 30px;
+    padding-left: 30px;
+
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position-x: 8px;
+    background-position-y: center;
+}
+
+.buscar img {
+    width: 30px;
+}
+
+.rede-sociais {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
