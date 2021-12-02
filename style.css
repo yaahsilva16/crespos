@@ -87,34 +87,65 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .titulo-principal {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
     color:#FFFFFF;
-
 }
+
+.dicas{
+    padding-top: 6rem;
+    padding-left: 3rem;
+    font-size: 500px;
+}
+
+.sabe-muito{
+    padding-right: 3rem;
+    font-size: 10px;
+    padding-top: 4.5rem;
+}
+
 
 .titulo-principal h1{
     font-family: 'Playfair Display', serif;
     font-size: 60px;
-    width: 30%;
-
-    
+    width: 35%;
 }
 
 .titulo-principal h2{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 25px;
     margin-top: 20px;
+    width: 35%;
+}
 
-    
-    width: 30%;
+/* -------- main --------- */
+
+.box-descricao{
+    width: 100%;
+    background-color:#9767A9;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.box-descricao div {
+    width: 90%;
+    display: flex;
+}
+
+.box-descricao h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    width: 36%;
+}
+
+.box-descricao p{
+    font-size: 16px;
+    width: 50%;
 }
