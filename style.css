@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 header {
@@ -79,7 +80,7 @@ ul li:hover {
 
 .banner {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-image: url(img/cabeludo@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,37 +91,28 @@ ul li:hover {
 }
 
 .titulo-principal {
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:#FFFFFF;
 }
-
-.dicas{
-    padding-top: 6rem;
-    padding-left: 3rem;
-    font-size: 500px;
-}
-
-.sabe-muito{
-    padding-right: 3rem;
-    font-size: 10px;
-    padding-top: 4.5rem;
-}
-
-
 .titulo-principal h1{
     font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    width: 35%;
+    font-size: 79px;
+    width: 70%;
+    margin-top: 8rem;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+    line-height: 100%;
 }
 
 .titulo-principal h2{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 26px;
     margin-top: 20px;
-    width: 35%;
+    width: 36%;
+    margin-top: 8rem;
 }
 
 /* -------- main --------- */
@@ -130,22 +122,405 @@ ul li:hover {
     background-color:#9767A9;
     color:#FFFFFF;
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    height: 10vw;
+    flex-wrap: wrap;
 }
 
 .box-descricao div {
-    width: 90%;
+    width: 100%;
     display: flex;
 }
 
 .box-descricao h3{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Playfair Display', serif;
-    width: 36%;
+    width: 37%;
 }
 
 .box-descricao p{
     font-size: 16px;
-    width: 50%;
+    width: 34%;
+    padding: 1rem;
+}
+
+.cabelo-no-espelho{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cabelo-no-espelho-img{
+    display: flex;
+    width: 40%;
+    position: absolute;
+    justify-content: center;
+    top: 133%;
+    left: 5%;
+}
+.reporte{
+    display: flex;
+    width: 45%;
+    position: absolute;
+    left: 46%;
+    top: 173vh;
+}
+
+.cabelao{
+    display: flex;
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    top: 254vh;
+}
+
+.rainha{
+    display: flex;
+    width: 43%;
+    position: absolute;
+    left: 46%;
+    top: 295vh;
+}
+
+.mae-e-filha{
+    display: flex;
+    width: 43%;
+    position: absolute;
+    left: 2%;
+    top: 372vh;
+}
+
+.lavando-cabelo{
+    display: flex;
+    width: 43%;
+    position: absolute;
+    left: 46%;
+    top: 412vh;
+}
+
+.cabelo-branco{
+    display: flex;
+    width: 43%;
+    position: absolute;
+    left: 2%;
+    top: 488vh;
+}
+
+.linha{
+    display: flex;
+    width: 29%;
+    position: absolute;
+    left: 50%;
+    top: 550vh;
+}
+
+.cabelo-espelho-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    width: 32vw;
+    padding: 1vw;
+    position: absolute;
+    left: 9vw;
+    top: 88vw;
+}
+
+.titulo-espelho{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman;
+}
+
+.paragrafo-espelho{
+    padding: 1vw;
+}
+
+.reporte-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 33vw;
+    left: 50vw;
+    top: 110vw;
+    padding: 1vw;
+
+}
+
+.titulo-reporte{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman; 
+}
+   
+.paragrafo-reporte{
+    padding: 1rem;
+}
+
+.cabelao-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 32vw;
+    left: 8vw;
+    top: 145vw;
+    right: 4vw;
+    padding: 1vw;
+}
+
+.titulo-cabelao{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman; 
+}
+
+.paragrafo-cabelao{
+    padding: 1rem;
+}
+
+.rainha-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 34vw;
+    left: 50vw;
+    top: 165vw;
+    padding: 1vw;
+} 
+
+.titulo-rainha{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman;
+}
+
+.paragrafo-rainha{
+    padding: 1rem;
+}
+
+.mae-e-filha-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 34vw;
+    left: 6vw;
+    top: 200vw;
+    padding: 1vw;
+}
+
+.titulo-mae-e-filha{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman;
+}
+
+.paragrafo-mae-e-filha{
+    padding: 1vw;
+}
+
+.lavando-cabelo-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 32vw;
+    left: 53vw;
+    top: 220vw;
+    padding: 1vw; 
+}
+
+.titulo-lavando-cabelo{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman
+}
+
+.paragrafo-lavando-cabelo{
+    padding: 1vw;
+}
+
+.cabelo-branco-cor{
+    background-color:#9767A9;
+    color: #FFFFFF;
+    position: absolute;
+    width: 32vw;
+    left: 7vw;
+    top: 255vw;
+    padding: 1vw; 
+}
+
+.titulo-cabelo-branco{
+    font-size: 2vw;
+    font-family: 'Playfair Display', Black Roman
+}
+
+.paragrafo-cabelo-branco{
+    padding: 1vw;
+}
+
+.modelos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rei{
+    display: flex;
+    position: absolute;
+    top: 615%;
+    left: 7%;
+}
+
+.rei img{
+    width: 287px;
+}
+
+.morena{
+    display: flex;
+    position: absolute;
+    top: 615%;
+    left: 29%;  
+}
+
+.morena img{
+    width: 190px;
+
+}
+
+.homem-de-tranca{
+    display: flex;
+    position: absolute;
+    top: 651.4%;
+    left: 29%;
+}
+
+.homem-de-tranca img{
+    width: 190px;
+    height: 203px;
+}
+
+.pretinhe{
+    display: flex;
+    position: absolute;
+    top: 615%;
+    left: 43.8%;
+}
+
+.pretinhe img{
+    width: 187.1px;
+    height: 432px;
+}
+
+.homem-de-blak{
+    display: flex;
+    position: absolute;
+    top: 615%;
+    left: 58.4%;
+}
+
+.homem-de-blak img{
+    width: 227px;
+    height: 603px;
+}
+
+.menina-do-sorriso-bonito{
+    display: flex;
+    position: absolute;
+    top: 615%;
+    left: 75.9%;
+}
+
+.menina-do-sorriso-bonito img{
+    width: 170px;
+}
+
+.lindinho-modelo{
+    display: flex;
+    position: absolute;
+    top: 641.4%;
+    left: 75.9%;
+}
+
+.lindinho-modelo img{
+    width: 170px;
+    height: 437px;
+}
+
+.tres-mulheres{
+    display: flex;
+    position: absolute;
+    top: 685.4%;
+    left: 7%;
+    width: 286px;
+    height: 160px;
+}
+
+.mulher-do-blakao{
+    display: flex;
+    position: absolute;
+    top: 685.3%;
+    left: 29%;
+}
+
+.mulher-do-blakao img{
+    width: 190px;
+    height: 161px;
+}
+
+.homem-de-chapeu-roxo{
+    display: flex;
+    position: absolute;
+    top: 685.3%;
+    left: 43.9%;
+}
+
+.homem-de-chapeu-roxo img{
+    width: 186px;
+    height: 161px;
+}
+
+footer{
+    background-color: #9767A9;
+    width:100%;
+    height: 12vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 578vh;
+}
+.p-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    color: white;
+    width: 45vw;
+    position: relative;
+    top: 4vh;
+    left: 5vw;
+}
+.p2-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    color: white;
+    width: 75vw;
+    position: relative;
+    top: 4vh;
+    left: 5vw;
+}
+footer p{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+footer ul{
+    width: 25%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    left: 70vw;
+    bottom: 2.25vh;
+}
+
+.fundo{
+    background-color: rgba(172, 149, 187, 1);
+    width: 20%;
+}
+
+p img {
+    display: flex;
+    align-items: center;
 }
